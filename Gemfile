@@ -38,7 +38,7 @@ gem 'omniauth-auth0', '~> 1.4.1'
 # Secrets should never be stored in code
 gem 'dotenv-rails', require: 'dotenv/rails-now', group: [:development, :test]
 
-
+gem 'hashie', '~> 3.4.6'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
